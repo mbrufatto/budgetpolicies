@@ -1,0 +1,82 @@
+body {
+    background-color: #131538; /* Azul escuro */
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #131538;
+    color: #fff;
+    padding: 20px;
+    margin-right: 10px;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10%;
+  }
+
+  .logo {
+    color: #fff;
+    padding: 20px;
+    margin-left: 10px;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;;
+    font-size: larger;
+    font-weight: 700;
+  }
+  
+  .header select {
+    background-color: #131538;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .content h1 {
+    text-align: center;
+  }
+  
+  .content p {
+    text-align: justify;
+    line-height: 1.5;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: auto; /* Remove a restrição de altura */
+    overflow-y: auto; /* Adiciona uma barra de rolagem vertical */
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+  }
+
+  #introduction_title, #data_collection_title, #user_rights_title, #contact_title, #last_update_title {
+    font-size: 18px;
+    font-weight: 600;
+  }
